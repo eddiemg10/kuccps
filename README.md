@@ -3,7 +3,7 @@
 
 **Courses**
 
-- `/api/courses/`
+- `/api/courses`
  >Get all unique courses offered by universities
  
 - `/api/courses/{id}`
