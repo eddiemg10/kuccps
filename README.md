@@ -7,7 +7,7 @@
  >Get all unique courses offered by universities
  
 - `/api/courses/{id}`
- >Get details of one course by it's id
+ >Get details of one course by its id
  
  <details>
  <summary>Response format</summary>
