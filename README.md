@@ -17,8 +17,8 @@
  "id" : 11,
  "name" : "BACHELOR OF SCIENCE (BIOLOGY)",
  "holland_code" : "code",
- "created_at" : 2022-10-01 15:16:57,
- "updated_at" : 2022-10-01 15:16:57,
+ "created_at" : "2022-10-01 15:16:57",
+ "updated_at" : "2022-10-01 15:16:57",
 }
  ```
 </details>
