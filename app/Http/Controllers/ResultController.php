@@ -3,9 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\UniversityCourse;
 
-class UniversityCourseController extends Controller
+class ResultController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,9 +13,32 @@ class UniversityCourseController extends Controller
      */
     public function index()
     {
-        /*
-            = {}
-        */
+        /* 
+            $json = {
+                "results": {
+                "Mathematics" : "A",
+                "English" : "A",
+                "Kiswahili" : "",
+                "Biology" : "",
+                "Chemistry": "",
+                "Physics" : " ",
+                "Geography": "",
+                "History": "",
+                } 
+            }
+         */
+        $
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        //
+        return view('results');
     }
 
     /**
@@ -28,6 +50,8 @@ class UniversityCourseController extends Controller
     public function store(Request $request)
     {
         //
+        $results = $request->all();
+
     }
 
     /**
@@ -38,13 +62,18 @@ class UniversityCourseController extends Controller
      */
     public function show($id)
     {
+        //
+    }
 
-        $courses = UniversityCourse::where('course_id',$id)->get();
-        
-        
-        return $courses;
-
-
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
+    {
+        //
     }
 
     /**
